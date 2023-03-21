@@ -1,0 +1,161 @@
+header{
+    	height: 80px;
+		background:rgb(85,105,220);
+	   	/**position: fixed;*/
+    }
+nav ul {
+	float: left;
+	padding-left: 0rem;
+	margin-bottom: -1rem;
+
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav	ul li a {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+/**imagen de fondo*/
+.splash{
+	width:100%;
+	/**height:98vh;*/
+	background: url(fotos/IMG_fondo.jpg) center center fixed; 
+	background-size:cover;
+}
+
+/** Si no queda bien foto de fondo en .splash borrar y dejar esto, en splash h2 dejar size 18
+.fotoFondo{
+	width:120%;
+	height:118vh;
+}*/
+
+.splash h1{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 38px;
+}
+
+.splash h2{
+	color: white;
+	font-family: 'Poppins';
+	font-style: Light 300;
+	font-size: 19px;
+}
+
+.textoPortada{
+	backdrop-filter: blur(8px);
+	display: inline-block ;
+	color: black;
+	padding-left: 10px;
+}
+
+.text{
+	margin-top: 40px;
+}
+
+
+.barraLateral {
+	background:rgb(85,105,220);
+}
+
+.btn-primary {
+	background: whitesmoke;
+	color: blue;
+	border-color: blue;
+}
+
+.btn-primary:hover {
+	color: black;
+	background: rgb(2, 39, 248);
+	
+}
+.centrado{
+    text-align: center;
+	display: inline-block;
+}
+
+.fotocv {
+	width:55%;
+	height:35vh;
+	border-radius: 50%;
+	margin: auto;
+}
+
+
+/*creo una clase centrado y otra espacios para usarla cuando quiero centrar algo o espaciar algo*/
+.centradogeneral{
+    text-align: center;
+}
+.espaciar{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.descripcion h1{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: rgb(85,105,220);
+}
+.descripcion h2{
+	
+	font-family: 'Poppins';
+	font-style: Light 300;
+	font-size: 19px;
+	color: rgb(85,105,220);
+}
+.descripcion h3{
+	
+	font-family: 'Poppins';
+	font-style: Light 300;
+	font-size: 17px;
+	color: rgb(98, 114, 207);
+}
+
+
+
+
+
+#letritas{
+	background: f2f2f2;
+}
+#letritas i {
+	color: #4CAF50;
+}
+.pintadito{
+	padding: 2px;
+	background: #999;
+	font-size: 30px;
+	color: white;
+}
+
+.footer {
+	color: whitesmoke;
+	background-color: rgb(85,105,220);
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+section [id] {
+	scroll-margin-top: 50px ;
+}
+/**#formacion {
+	display: none;
+}*/
